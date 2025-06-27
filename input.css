@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Bebas Neue", system-ui, sans-serif;
+
+  --color-invincible-yellow: rgb(254, 242, 0);
+  --color-invincible-blue: rgb(24, 160, 245)
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("bebas.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
